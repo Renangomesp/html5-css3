@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        col.cnome{
+            background-color: aqua;
+        }
+        col.csexo{
+            background-color: wheat;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome" span="2">
+            <col class="csexo" span="2">
+            <col class="cidade" >
+            <col class="cprof">
+        </colgroup>
+        <caption>cadastro</caption>
+
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissao</th>
+        </tr>
+        <tr>
+            <td>ana maria</td>
+            <td>f</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>julia</td>
+            <td>f</td>
+            <td>32</td>
+            <td>professora</td>
+        </tr>
+        <tr>
+            <td>luiz</td>
+            <td>m</td>
+            <td>22</td>
+            <td>ginasta</td>
+        </tr>
+        <tr>
+            <td>julio</td>
+            <td>m</td>
+            <td>22</td>
+            <td>progamador</td>
+        </tr>
+        <tr>
+            <td class="destaque">felipe</td>
+            <td>m</td>
+            <td>22</td>
+            <td>vendedor</td>
+        </tr>
+        <tr>
+            <td>fatima</td>
+            <td>m</td>
+            <td>22</td>
+            <td>medica</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
