@@ -1,2 +1,2 @@
-os dados foram enviados!
-aprenda PHP para mias informacoes.
+   os dados foram enviados!
+ aprenda PHP para mias informacoes.
