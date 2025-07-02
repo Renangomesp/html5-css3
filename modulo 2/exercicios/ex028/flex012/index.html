@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.conteiner{
+            background-color: rgb(108, 116, 6);
+            display:flex;
+            flex-flow:  row nowrap;
+        }
+        div.item{
+            background-color: aquamarine;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 300px;
+            padding: 10px;
+            
+           
+        }
+
+        div#cxA{
+        /*flex-shrink: 2;           
+        flex-grow: 0;
+        flex-basis: 300px;*/
+        
+        
+        flex: 0 2 150px;
+
+        }
+
+
+        div#cxB{
+        /*flex-shrink: 1;               
+        flex-grow: 0;*/
+
+        flex-basis: 300px;
+
+        }
+
+        div#cxC{
+        /*flex-shrink: 3;            
+         flex-grow:0;
+         flex-basis: auto;*/
+       
+        flex-basis: 0 4  150px; 
+
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+        
+
+
+
+    </div>
+</body>
+</html>
